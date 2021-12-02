@@ -100,4 +100,4 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 # Branches
 
-![image](https://drive.google.com/file/d/1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr)
