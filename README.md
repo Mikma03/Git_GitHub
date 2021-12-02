@@ -51,3 +51,7 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 5. When we add all changes whuch we've done perfect solution for that seems to be:
 
 > ```add *```
+
+6. When we want add changes for two or more fles and we want skip step ```git add```
+
+>```git commit -a -m "your comment and explanation"
