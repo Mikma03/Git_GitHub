@@ -1,9 +1,16 @@
 
+# TOC
+1. [Usefull link and materials](#Usefull-link-and-materials)
+
+2. [Introduction](#Introduction)
+
+3. [Git interface (Git Bash) commands and work flow](#Git-interface-(Git-Bash)-commands-and-work-flow)
+
+4. [Branches](#Branches)
 
 
-# Git_GitHub_
 
-## Usefull link and materials
+# Usefull link and materials
 
 [Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
 
@@ -11,7 +18,7 @@
 
 [Git Ignore files - templates](https://github.com/github/gitignore)
 
-## Introduction
+# Introduction
 
 Introduction to GIT flow using GIT Bash and GitHub. 
 
@@ -26,7 +33,7 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 ![image](https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT)
 
 
-# Git interface (Git Bash) commands and work flow.
+# Git interface (Git Bash) commands and work flow
 
 1. When we want to check status of our repositary we can use:
 
@@ -91,4 +98,4 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 10.4. Then rename the file in the command line, with ren gitignore.txt .gitignore.
 
 
-
+# Branches
