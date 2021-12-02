@@ -11,5 +11,5 @@ Moreover there is complete book which cover most information about GIT [Link](ht
 
 Additionally documentation for GIT is avaliable here [Link](https://docs.github.com/en/get-started)
 
-![image](http://drive.google.com/uc?export=view&id=d/15RSv1aY_71BH8cekrD8fihYPDXeS0OFT)
+![image](https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT)
 
