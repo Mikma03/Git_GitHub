@@ -24,3 +24,9 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 ![image](https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT)
 
+
+# Git interface (Git Bash) commands and work flow.
+
+1. When we want to check status of our repositary we can use
+
+> ```git status```
