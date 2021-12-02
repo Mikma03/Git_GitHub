@@ -1,4 +1,15 @@
+
+
+
 # Git_GitHub
+
+## Usefull link and materials
+
+[Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
+
+
+## Introduction
+
 Introduction to GIT flow using GIT Bash and GitHub. 
 
 This reposytary consist of usefull knowladge about GIT flow.
