@@ -7,6 +7,7 @@
 
 [Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
 
+[When local branch and remotely branch are differen and you want work on one branch](https://stackoverflow.com/questions/69863948/git-creates-a-new-branch-despite-commit-how-to-fix-this)
 
 ## Introduction
 
@@ -54,4 +55,4 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 6. When we want add changes for two or more fles and we want skip step ```git add```
 
->```git commit -a -m "your comment and explanation"
+>```git commit -a -m "your comment and explanation"```
