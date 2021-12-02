@@ -80,4 +80,15 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 ```git status -uall```
 
 
+10. Flow how to add .gitignore file
+
+10.1. Create the text file gitignore.txt.
+
+10.2. Open it in a text editor and add your rules, then save and close.
+
+10.3. Hold SHIFT, right click the folder you're in, then select Open command window here.
+
+10.4. Then rename the file in the command line, with ren gitignore.txt .gitignore.
+
+
 
