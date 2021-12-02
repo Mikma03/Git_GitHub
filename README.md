@@ -10,3 +10,5 @@ Mainly this reposytary was created based on:
 Moreover there is complete book which cover most information about GIT [Link](https://git-scm.com/book/en/v2)
 
 Additionally documentation for GIT is avaliable here [Link](https://docs.github.com/en/get-started)
+
+![image info](.GitDiagram1.png)
