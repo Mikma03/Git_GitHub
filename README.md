@@ -9,6 +9,8 @@
 
 [When local branch and remotely branch are differen and you want work on one branch](https://stackoverflow.com/questions/69863948/git-creates-a-new-branch-despite-commit-how-to-fix-this)
 
+[Git Ignore files - templates](https://github.com/github/gitignore)
+
 ## Introduction
 
 Introduction to GIT flow using GIT Bash and GitHub. 
