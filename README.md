@@ -12,9 +12,7 @@
 
 Introduction to GIT flow using GIT Bash and GitHub. 
 
-This reposytary consist of usefull knowladge about GIT flow.
-
-Mainly this reposytary was created based on:
+This reposytary consist of usefull knowladge about GIT flow. Mainly this reposytary was created based on:
 
 * Course created by Bogdan Stashchuk and available here: [Link](https://subscription.packtpub.com/video/web_development/9781800209855/p1/video1_1/introduction)
 
@@ -27,6 +25,20 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 # Git interface (Git Bash) commands and work flow.
 
-1. When we want to check status of our repositary we can use
+1. When we want to check status of our repositary we can use:
 
 > ```git status```
+
+
+2. Settings for user and user e-mail
+
+>```git config --global.username "YOUR NAME"```
+>```git config --global user.email "YOUR EMAIL"```
+
+3. When we want clear our console
+
+>```clear```
+
+
+
+
