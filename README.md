@@ -43,6 +43,8 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 >```git add FILE NAME```
 
+
 >```git commit -m "your commnet for changes you've done"
+
 
 >```git push```
