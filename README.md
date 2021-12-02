@@ -62,3 +62,22 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 7. History of commits
 
 >```git log```
+
+8. .gitignore
+
+In case of this file we tell git which files will be untracked.
+
+There is posbibility to create this file manually or when repositary is created.
+
+[Commends for .gitignoge](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+
+Also on GitHub there is a project which cosnsist of templates for gitignore in case of every language. [Link](https://github.com/github/gitignore)
+
+If we wany to ignore any file inside of folder in gitignore file we can use ```*/```
+
+9. When we want to see particular file in catologe we can use:
+
+```git status -uall```
+
+
+
