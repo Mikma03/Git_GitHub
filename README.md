@@ -39,6 +39,12 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 >```clear```
 
+4. When we changed somthing on local repositary (e.g. local PC) the GIT flow could look like that:
 
+```git add FILE NAME```
+
+```git commit -m "your commnet for changes you've done"
+
+```git push```
 
 
