@@ -33,6 +33,7 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 2. Settings for user and user e-mail
 
 >```git config --global.username "YOUR NAME"```
+
 >```git config --global user.email "YOUR EMAIL"```
 
 3. When we want clear our console
@@ -43,8 +44,10 @@ Additionally documentation for GIT is avaliable here [Link](https://docs.github.
 
 >```git add FILE NAME```
 
-
 >```git commit -m "your commnet for changes you've done"```
 
-
 >```git push```
+
+5. When we add all changes whuch we've done perfect solution for that seems to be:
+
+> ```add *```
