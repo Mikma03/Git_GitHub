@@ -209,6 +209,7 @@ or
 
 13. Changes made by git stash can be moved to another branch
 
+<<<<<<< HEAD
 > ```git stash pop```
 
 # Merge conflict
@@ -251,3 +252,6 @@ When conflict appera and after taht we select code we need to one again to throu
  
  
  
+=======
+> ```git stash pop```
+>>>>>>> ed039b8 (update)
