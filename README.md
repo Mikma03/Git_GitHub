@@ -8,6 +8,8 @@
 
 4. [Branches](#Branches)
 
+5. [Git-Stash](#Git-Stash)
+
 
 
 # Usefull link and materials
