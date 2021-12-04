@@ -84,18 +84,18 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 9. When we want to see particular file in catologe we can use:
 
-```git status -uall```
+> ```git status -uall```
 
 
 10. Flow how to add .gitignore file
 
-	10.1. Create the text file gitignore.txt.
+	10.1. Create the text file ```gitignore.txt```.
 
 	10.2. Open it in a text editor and add your rules, then save and close.
 
-	10.3. Hold SHIFT, right click the folder you're in, then select Open command window here.
+	10.3. Hold SHIFT, right click the folder you're in, then select Open ```command``` window here.
 
-	10.4. Then rename the file in the command line, with ren gitignore.txt .gitignore.
+	10.4. Then rename the file in the command line, with ren ```gitignore.txt``` ```.gitignore```.
 
 
 # Branches
@@ -105,33 +105,30 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 1. How can we check where we are in case of branch:
 
-```git branch```
+> ```git branch```
 
 2. When we want to create new branch we can use:
 
-```git branch NAME_OF_NEW_BRANCH```
+> ```git branch NAME_OF_NEW_BRANCH```
 
 3. When we want change branch means that we want change branch where we will be working atlassian
 
-```git checkout NAME_OF_BRANCH```
-
-
-
+> ```git checkout NAME_OF_BRANCH```
 
 
 4. When we want to make changes on our remotely repository and add new branch which is already exist on our local workspace we can use commend:
 
 
-```git push -u origin NAME_OF_NEW_BRANCH```
+> ```git push -u origin NAME_OF_NEW_BRANCH```
 
 5. When we want to create new brach and autamatillcy checkout branch we can use:
 
-```git checkout -b NAME_OF_NEW_BRANCH```
+> ```git checkout -b NAME_OF_NEW_BRANCH```
 
 6. When we want to see graph of our changes in console:
 
-```git log -oneline -graph -all```
+> ```git log -oneline -graph -all```
 
 7. When we wantto open GIU for Git to see our previous changes
 
-```gitk -all```
+> ```gitk -all```
