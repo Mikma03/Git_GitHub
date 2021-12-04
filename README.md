@@ -200,8 +200,6 @@ or
 
 13. Changes made by git stash can be moved to another branch
 
-<<<<<<< HEAD
-
 > `git stash pop`
 
 # Merge conflict
