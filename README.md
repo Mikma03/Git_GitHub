@@ -212,6 +212,7 @@ When conflict appera and after taht we select code we need to one again to throu
 1. `git add`
 
 2. `git commit`
+
 3. `git push`
 
 # Git Revert and Git reset
