@@ -117,3 +117,20 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 
 
+
+
+4. When we want to make changes on our remotely repository we can use commend:
+
+```git push```
+
+or
+
+```git push -u origin NAME_OF_NEW_BRANCH```
+
+5. When we want to create new brach and autamatillcy checkout branch we can use:
+
+```git checkout -b NAME_OF_NEW_BRANCH```
+
+6. When we want to see graph of our changes in console:
+
+```git log -oneline -graph -all```
