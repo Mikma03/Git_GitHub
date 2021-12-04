@@ -146,49 +146,49 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 1. When we want add something to storage we can use command:
 
->```git stash
+> ```git stash
 
 
 2. If we want check what is in our storage we should use:
 
->``` git stash list
+> ``` git stash list
 
 3. Changes in our storage are indexed and we can acess to then by
 
->```stash@{X}
+> ```stash@{X}
 
 4. We can add multipletimes changes and updates and everytime our list will be reindexed moreover the latest index is our last change and this is index{0}.
 If we want identify difference between stash commit we can use:
 
->```git stash show stash@{X}
+> ```git stash show stash@{X}
 	where ```{X}``` is number of stash commit 
 
 5. When our changes in storage are simillar or commend ```git stash show``` doesn't show the changes we are interested in then we can use:
 
->```git stash show stash@{X} -p
+> ```git stash show stash@{X} -p
 
 
 6. In case when we change two or more files we can use
 
->```git stash save "Descriotion for our changes"
+> ```git stash save "Descriotion for our changes"
 
 7. When we want apply changes from storage to our file we can use below command, but in this case only the latest commit will be applied. Also in this case
 changes are still in storage.
 
->```git stash apply
+> ```git stash apply
 
 8. When we want delete changes from storage after adding those to file we can use:
 
->```git stash pop```
+> ```git stash pop```
 
 9. In case when we want apply changes from choosen commit we can use:
 
->```git stash pop stash@{X}
+> ```git stash pop stash@{X}
 
 10. When we want delete stash commits form storage we can use
 
->```git stash drop stash@{X}
+> ```git stash drop stash@{X}
 
 or when we want everything what is inside of storage
 
->```git stash clear
+> ```git stash clear
