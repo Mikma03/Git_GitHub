@@ -258,6 +258,5 @@ or
 
 # Fork and Pull Request
 
-
-![image](https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz)
+![image](https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz#center)
 
