@@ -111,5 +111,12 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 ```git branch NAME_OF_NEW_BRANCH```
 
+3. When we want change branch means that we want change branch where we will be working atlassian
+
+```git checkout NAME_OF_BRANCH```
+
+
+test na branchu tesowym
+
 
 
