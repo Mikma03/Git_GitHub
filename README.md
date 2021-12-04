@@ -192,3 +192,20 @@ changes are still in storage.
 or when we want everything what is inside of storage
 
 > ```git stash clear```
+
+
+11. When we want to add new file but that file is untracked by git but we need to add changes in this file to storage then
+
+> ```git stash -u```
+
+or
+
+> ```git stash -a```
+
+12. If we want create new branch for stash commit we should use
+
+> ```git stash branch  NAME_OF_NEW_BRANCH stash{0}```
+
+13. Changes made by git stash can be moved to another branch
+
+> ```git stash pop```
