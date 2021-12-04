@@ -112,21 +112,10 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 > ```git branch NAME_OF_NEW_BRANCH```
 
 3. When we want change branch means that we want change branch where we will be working atlassian
-<<<<<<< HEAD
-=======
 
 ```git checkout NAME_OF_BRANCH```
 
-
-test na branchu tesowym
-
->>>>>>> test1
-
-> ```git checkout NAME_OF_BRANCH```
-
-
 4. When we want to make changes on our remotely repository and add new branch which is already exist on our local workspace we can use commend:
-
 
 > ```git push -u origin NAME_OF_NEW_BRANCH```
 
