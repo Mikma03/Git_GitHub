@@ -134,3 +134,7 @@ or
 6. When we want to see graph of our changes in console:
 
 ```git log -oneline -graph -all```
+
+7. When we wantto open GIU for Git to see our previous changes
+
+```gitk -all```
