@@ -249,9 +249,3 @@ When conflict appera and after taht we select code we need to one again to throu
  or
  
  > ```git reset COMMIT_ID --hard```
- 
- 
- 
-=======
-> ```git stash pop```
->>>>>>> ed039b8 (update)
