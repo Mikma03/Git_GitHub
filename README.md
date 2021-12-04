@@ -238,3 +238,26 @@ When conflict appera and after taht we select code we need to one again to throu
 or
 
 > `git reset COMMIT_ID --hard`
+
+# How to change names of commits
+
+1. When we want change commit we can use
+
+>```git commit --amend -m "message update"```
+
+2. To display information about one commit we should use
+
+>```git show COMMIT_ID```
+
+3. In case when we want change more than one commit we can use 
+
+>```git rebase -i HEAD~X```
+> p = pick
+> r = reward
+
+
+# Fork and Pull Request
+
+
+![image](https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz)
+
