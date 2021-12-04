@@ -89,15 +89,27 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 10. Flow how to add .gitignore file
 
-10.1. Create the text file gitignore.txt.
+	10.1. Create the text file gitignore.txt.
 
-10.2. Open it in a text editor and add your rules, then save and close.
+	10.2. Open it in a text editor and add your rules, then save and close.
 
-10.3. Hold SHIFT, right click the folder you're in, then select Open command window here.
+	10.3. Hold SHIFT, right click the folder you're in, then select Open command window here.
 
-10.4. Then rename the file in the command line, with ren gitignore.txt .gitignore.
+	10.4. Then rename the file in the command line, with ren gitignore.txt .gitignore.
 
 
 # Branches
 
 ![image](https://drive.google.com/uc?export=view&id=1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr)
+
+
+1. How can we check where we are in case of branch:
+
+```git branch```
+
+2. When we want to create new branch we can use:
+
+```git branch NAME_OF_NEW_BRANCH```
+
+
+
