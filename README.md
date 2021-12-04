@@ -216,10 +216,38 @@ or
 If cinflict appear in out git flow we need to select which part of code we want in our file.
 When conflict appera and after taht we select code we need to one again to throught git flow:
 
-	1. ```git add```
+	1.```git add```
 	
 	2. ```git commit```
 	
 	3. ```git push```
 
+
+# Git Revert and Git reset
+ 
+ 1. When we want to go back to a selected point in the past on our time line we can do this with:
+ 
+ > ```git checkout COMMIT_ID```
+ 
+ 2. In case when we want restore changes form selected commit
+ 
+ > ```git revert COMMIT_ID``` 
+ 
+ 3. History of commits
+ 
+ > ```git log --oneline```
+ 
+ 4. To reset old commits we can use
+ 
+ > ```git reset COMMIT_ID```
+ 
+ 5. There are two possible reset posibillity
+ 
+ > ```git reset COMMIT_ID --soft```
+ 
+ or
+ 
+ > ```git reset COMMIT_ID --hard```
+ 
+ 
  
