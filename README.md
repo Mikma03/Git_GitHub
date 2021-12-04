@@ -136,3 +136,8 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 > ```git merge <name of branch which will be merge to actuall branch>```
 
 ![image](https://drive.google.com/uc?export=view&id=1HE29F10Rqktdg8GPQniRB4134YxZ8Kvo)
+
+
+# Git Stash
+
+![image](https://drive.google.com/uc?export=view&id=1HEmqiOj50tK2vWmeZWyzBGGMRUWQJgPq)
