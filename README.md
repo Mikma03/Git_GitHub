@@ -130,3 +130,7 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 7. When we wantto open GIU for Git to see our previous changes
 
 > ```gitk -all```
+
+8. When we want merge commits from our branches we can use:
+
+> ```git merge <name of branch which will be merge to actuall branch>```
