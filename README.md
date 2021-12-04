@@ -262,3 +262,16 @@ or
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz" />
 </p>
+
+
+1. To Fork another repositary from someone GitHub we need go there and choose "fork" then probably we want to clone that repositary to
+our local workspace.
+
+>```git clone PASTE_URL_HERE```
+
+ 2. How to go into the project
+ 
+ >```cd PROJECTNAME/```
+ 
+ 3. How to check files name of cloned projekct
+ 
