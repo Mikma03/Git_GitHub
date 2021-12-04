@@ -119,11 +119,8 @@ If we wany to ignore any file inside of folder in gitignore file we can use ```*
 
 
 
-4. When we want to make changes on our remotely repository we can use commend:
+4. When we want to make changes on our remotely repository and add new branch which is already exist on our local workspace we can use commend:
 
-```git push```
-
-or
 
 ```git push -u origin NAME_OF_NEW_BRANCH```
 
