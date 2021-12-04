@@ -10,6 +10,7 @@
 
 5. [Git-Stash](#Git-Stash)
 
+6. [Merge conflict](#Merge-conflict)
 
 
 # Usefull link and materials
@@ -209,3 +210,16 @@ or
 13. Changes made by git stash can be moved to another branch
 
 > ```git stash pop```
+
+# Merge conflict
+
+If cinflict appear in out git flow we need to select which part of code we want in our file.
+When conflict appera and after taht we select code we need to one again to throught git flow:
+
+	1. ```git add```
+	
+	2. ```git commit```
+	
+	3. ```git push```
+
+ 
