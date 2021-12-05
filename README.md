@@ -369,4 +369,9 @@ and next we need to select -s squash
 
 >```git cherry-pick COMMIT_ID```
 
+# Tagging
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1HcPfc5dK9qseTWgjhnOPz_yW6qUErHQi" />
+</p>
 
