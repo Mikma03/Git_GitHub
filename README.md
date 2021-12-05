@@ -345,7 +345,7 @@ Next
 # Git squash
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HZMV3QHsj4j3xj7Iy36ZKW8yIjY_NhOu/"/>
+  <img src="https://drive.google.com/uc?export=view&id=1HZMV3QHsj4j3xj7Iy36ZKW8yIjY_NhOu"/>
 </p>
 
 >```git rebase -i COMMIT_ID```
@@ -356,6 +356,6 @@ and next we need to select -s squash
 # Git cherry-pick
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HcP93RCj6LJTqTrghnnn4mbtnI8lU8ev/"/>
+  <img src="https://drive.google.com/uc?export=view&id=1HcP93RCj6LJTqTrghnnn4mbtnI8lU8ev"/>
 </p>
 
