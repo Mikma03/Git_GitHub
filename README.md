@@ -375,3 +375,21 @@ and next we need to select -s squash
   <img src="https://drive.google.com/uc?export=view&id=1HhV0dsa_QjLCASLjh62dBtcim4g5eToT " />
 </p>
 
+1. Example
+
+>```git tag TAG_NAME COMMIT_ID```
+
+2. release all tags
+
+>```git push --tags```
+
+3. Delete tags
+
+3.1. Local
+
+>```git tag -d TAG_NAME```
+
+3.2. Remote
+
+>```git push -d origin TAG_NAME```
+
