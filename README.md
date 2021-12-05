@@ -1,4 +1,4 @@
-# TOC
+# Table of content
 
 1. [Usefull link and materials](#Usefull-link-and-materials)
 
@@ -11,6 +11,18 @@
 5. [Git-Stash](#Git-Stash)
 
 6. [Merge conflict](#Merge-conflict)
+
+7. [Git Revert and Git reset](#Git-Revert-and-Git-reset)
+
+8. [How to change names of commits](#How-to-change-names-of-commits)
+
+9. [Fork and Pull Request](#Fork-and-Pull-Request)
+
+10. [Git history](#Git-history)
+
+11. [Pull request](#Pull-request)
+
+
 
 # Usefull link and materials
 
@@ -255,9 +267,7 @@ or
 > p = pick
 > r = reward
 
-
 # Fork and Pull Request
-
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz" />
@@ -273,5 +283,43 @@ our local workspace.
  
  >```cd PROJECTNAME/```
  
- 3. How to check files name of cloned projekct
- 
+# Git history
+
+1. To check Git history we should use:
+
+>```git log```
+
+or for example three last commits
+
+>```git log --onelone -3```
+
+or when we want to see selected authon
+
+>```git log --author=AUTHOR_ID```
+
+or we can select specyfic dates parameters:
+
+>```git log --before "rrrr-mm-dd"```
+
+2. Titles of commits
+
+>```git log --oneline```
+
+>```git log --graph```
+
+>```git log --oneline --graph```
+
+>```git log --pretty="%H - %aN - %aD"```
+
+3. Reflog - local history
+
+>```git reflog -NUMBER OD COMMITS```
+
+# Pull request
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1HOsDEJZfeoI8qL2W4rtkm9tzkOmr-7Fu" />
+</p>
+
+
+
