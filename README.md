@@ -332,3 +332,11 @@ to send new branch to remotely repo we can use:
 Next
 
 >```git push --set-upstream origin BRANCH_NAME```
+
+# Git rebase & git merge
+
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id="1HU-NUqEDPrYcM33C1gzkCkwCsZPe3DEE />
+</p>
+
