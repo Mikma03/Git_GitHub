@@ -321,5 +321,15 @@ or we can select specyfic dates parameters:
   <img src="https://drive.google.com/uc?export=view&id=1HOsDEJZfeoI8qL2W4rtkm9tzkOmr-7Fu" />
 </p>
 
+1. New branch
 
+>``` git checkout -b BRANCH_NAME```
+
+to send new branch to remotely repo we can use:
+
+>```git commit -a -m "message"```
+
+Next
+
+>```git push --set-upstream origin BRANCH_NAME```
 
