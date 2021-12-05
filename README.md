@@ -323,6 +323,7 @@ or we can select specyfic dates parameters:
 
 1. New branch
 
+<<<<<<< HEAD
 >``` git checkout -b BRANCH_NAME```
 
 to send new branch to remotely repo we can use:
@@ -333,3 +334,6 @@ Next
 
 >```git push --set-upstream origin BRANCH_NAME```
 
+=======
+test
+>>>>>>> 8e3ba1056ef339546b48cde9c23202d4394bf91e
