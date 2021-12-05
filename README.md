@@ -372,6 +372,6 @@ and next we need to select -s squash
 # Tagging
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HhV0dsa_QjLCASLjh62dBtcim4g5eToT/ " />
+  <img src="https://drive.google.com/uc?export=view&id=1HhV0dsa_QjLCASLjh62dBtcim4g5eToT " />
 </p>
 
