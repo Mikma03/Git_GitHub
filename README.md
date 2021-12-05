@@ -110,7 +110,6 @@ If we wany to ignore any file inside of folder in gitignore file we can use `*/`
 
 # Branches
 
-
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr" />
 </p>
@@ -147,11 +146,9 @@ If we wany to ignore any file inside of folder in gitignore file we can use `*/`
 
 > `git merge <name of branch which will be merge to actuall branch>`
 
-
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1HE29F10Rqktdg8GPQniRB4134YxZ8Kvo" />
 </p>
-
 
 # Git Stash
 
@@ -283,7 +280,6 @@ or
   <img src="https://drive.google.com/uc?export=view&id=1HIXjvh_VCgKVCCZg_EJFMaxNrVP_l-Cz" />
 </p>
 
-
 1. To Fork another repositary from someone GitHub we need go there and choose "fork" then probably we want to clone that repositary to
 our local workspace.
 
@@ -368,4 +364,7 @@ and next we need to select -s squash
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1HcP93RCj6LJTqTrghnnn4mbtnI8lU8ev"/>
 </p>
+
+>```git cherry-pick COMMIT_ID```
+
 
