@@ -337,7 +337,7 @@ Next
 
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HU-NUqEDPrYcM33C1gzkCkwCsZPe3DEE"/>
+  <img src="https://drive.google.com/uc?export=view&id=1HU-NUqEDPrYcM33C1gzkCkwCsZPe3DEE" />
 </p>
 
 
@@ -345,7 +345,7 @@ Next
 # Git squash
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HZMV3QHsj4j3xj7Iy36ZKW8yIjY_NhOu"/>
+  <img src="https://drive.google.com/uc?export=view&id=1HZMV3QHsj4j3xj7Iy36ZKW8yIjY_NhOu" />
 </p>
 
 >```git rebase -i COMMIT_ID```
