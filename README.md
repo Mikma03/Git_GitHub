@@ -44,7 +44,9 @@ Moreover there is complete book which cover most information about GIT [Link](ht
 
 Additionally documentation for GIT is avaliable here [Link](https://docs.github.com/en/get-started)
 
-![image](https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT)
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT" />
+</p>
 
 # Git interface (Git Bash) commands and work flow
 
