@@ -30,7 +30,7 @@
 
 15. [Tagging](#Tagging)
 
-16. [Git with VSC](Git-with-VSC)
+16. [Git with VSC](#Git-with-VSC)
 
 # Usefull link and materials
 
