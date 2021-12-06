@@ -412,3 +412,7 @@ This is a list of tutorial:
 
 
 test zmiany na Pycharm
+
+
+druga zmiana na pycharmie
+
