@@ -409,10 +409,3 @@ This is a list of tutorial:
 - [TOP 6 Git extensions](https://www.youtube.com/watch?v=Guva-oab1pg&ab_channel=BryanJenks)
 
 - [Branches, merge, clone, fork](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld)
-
-
-test zmiany na Pycharm
-
-
-druga zmiana na pycharmie
-
