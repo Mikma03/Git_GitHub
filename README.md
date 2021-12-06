@@ -386,8 +386,16 @@ and next we need to select -s squash
 
 > `git push -d origin TAG_NAME`
 
-testowa zmiana na vsc
+# Git with VSC
 
-testowa zmiana 2
+Best methon as always is learning by doing. I've found couple of tutorial on YT which very good describe what going on when we are using git working with VSC.
 
-testowa zmiana na zdalnym repo
+This is a list of tutorial:
+
+- [Link1 - intro to VSC and GIT](https://www.youtube.com/watch?v=Fk12ELJ9Bww&t=8s&ab_channel=AutomationStepbyStep)
+
+- [Branches in VSC](https://www.youtube.com/watch?v=F2DBSH2VoHQ&ab_channel=Ihatetomatoes)
+
+- [TOP 6 Git extensions](https://www.youtube.com/watch?v=Guva-oab1pg&ab_channel=BryanJenks)
+
+- [Branches, merge, clone, fork](https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld)
