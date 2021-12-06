@@ -22,6 +22,16 @@
 
 11. [Pull request](#Pull-request)
 
+12. [Git rebase & git merge](#Git-rebase-&-git-merge)
+
+13. [Git squash](#Git-squash)
+
+14. [Git cherry-pick](#Git-cherry-pick)
+
+15. [Tagging](#Tagging)
+
+16. [Git with VSC](Git-with-VSC)
+
 # Usefull link and materials
 
 [Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
