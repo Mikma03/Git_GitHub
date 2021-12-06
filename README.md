@@ -387,3 +387,5 @@ and next we need to select -s squash
 > `git push -d origin TAG_NAME`
 
 testowa zmiana na vsc
+
+testowa zmiana 2
