@@ -22,8 +22,6 @@
 
 11. [Pull request](#Pull-request)
 
-
-
 # Usefull link and materials
 
 [Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
@@ -158,7 +156,6 @@ If we wany to ignore any file inside of folder in gitignore file we can use `*/`
   <img src="https://drive.google.com/uc?export=view&id=1HEmqiOj50tK2vWmeZWyzBGGMRUWQJgPq" />
 </p>
 
-
 1. When we want add something to storage we can use command:
 
 > `git stash`
@@ -264,15 +261,15 @@ or
 
 1. When we want change commit we can use
 
->```git commit --amend -m "message update"```
+> `git commit --amend -m "message update"`
 
 2. To display information about one commit we should use
 
->```git show COMMIT_ID```
+> `git show COMMIT_ID`
 
-3. In case when we want change more than one commit we can use 
+3. In case when we want change more than one commit we can use
 
->```git rebase -i HEAD~X```
+> `git rebase -i HEAD~X`
 > p = pick
 > r = reward
 
@@ -283,45 +280,45 @@ or
 </p>
 
 1. To Fork another repositary from someone GitHub we need go there and choose "fork" then probably we want to clone that repositary to
-our local workspace.
+   our local workspace.
 
->```git clone PASTE_URL_HERE```
+> `git clone PASTE_URL_HERE`
 
- 2. How to go into the project
- 
- >```cd PROJECTNAME/```
- 
+2.  How to go into the project
+
+> `cd PROJECTNAME/`
+
 # Git history
 
 1. To check Git history we should use:
 
->```git log```
+> `git log`
 
 or for example three last commits
 
->```git log --onelone -3```
+> `git log --onelone -3`
 
 or when we want to see selected authon
 
->```git log --author=AUTHOR_ID```
+> `git log --author=AUTHOR_ID`
 
 or we can select specyfic dates parameters:
 
->```git log --before "rrrr-mm-dd"```
+> `git log --before "rrrr-mm-dd"`
 
 2. Titles of commits
 
->```git log --oneline```
+> `git log --oneline`
 
->```git log --graph```
+> `git log --graph`
 
->```git log --oneline --graph```
+> `git log --oneline --graph`
 
->```git log --pretty="%H - %aN - %aD"```
+> `git log --pretty="%H - %aN - %aD"`
 
 3. Reflog - local history
 
->```git reflog -NUMBER OD COMMITS```
+> `git reflog -NUMBER OD COMMITS`
 
 # Pull request
 
@@ -331,24 +328,21 @@ or we can select specyfic dates parameters:
 
 1. New branch
 
->``` git checkout -b BRANCH_NAME```
+> ` git checkout -b BRANCH_NAME`
 
 to send new branch to remotely repo we can use:
 
->```git commit -a -m "message"```
+> `git commit -a -m "message"`
 
 Next
 
->```git push --set-upstream origin BRANCH_NAME```
+> `git push --set-upstream origin BRANCH_NAME`
 
 # Git rebase & git merge
-
 
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1HU-NUqEDPrYcM33C1gzkCkwCsZPe3DEE" />
 </p>
-
-
 
 # Git squash
 
@@ -356,10 +350,9 @@ Next
   <img src="https://drive.google.com/uc?export=view&id=1HZMV3QHsj4j3xj7Iy36ZKW8yIjY_NhOu" />
 </p>
 
->```git rebase -i COMMIT_ID```
+> `git rebase -i COMMIT_ID`
 
 and next we need to select -s squash
-
 
 # Git cherry-pick
 
@@ -367,7 +360,7 @@ and next we need to select -s squash
   <img src="https://drive.google.com/uc?export=view&id=1HcP93RCj6LJTqTrghnnn4mbtnI8lU8ev" />
 </p>
 
->```git cherry-pick COMMIT_ID```
+> `git cherry-pick COMMIT_ID`
 
 # Tagging
 
@@ -377,19 +370,20 @@ and next we need to select -s squash
 
 1. Example
 
->```git tag TAG_NAME COMMIT_ID```
+> `git tag TAG_NAME COMMIT_ID`
 
 2. release all tags
 
->```git push --tags```
+> `git push --tags`
 
 3. Delete tags
 
 3.1. Local
 
->```git tag -d TAG_NAME```
+> `git tag -d TAG_NAME`
 
 3.2. Remote
 
->```git push -d origin TAG_NAME```
+> `git push -d origin TAG_NAME`
 
+testowa zmiana na vsc
