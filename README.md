@@ -389,3 +389,5 @@ and next we need to select -s squash
 testowa zmiana na vsc
 
 testowa zmiana 2
+
+testowa zmiana na zdalnym repo
