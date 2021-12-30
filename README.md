@@ -4,7 +4,7 @@
 
 2. [Introduction](#Introduction)
 
-3. [Git interface (Git Bash) commands and work flow](<#Git-interface-(Git-Bash)-commands-and-work-flow>)
+3. [Git interface (Git Bash/Git GIU) commands and work flow](<#Git-interface-(Git-Bash-/-Git-GUI)-commands-and-work-flow>)
 
 4. [Branches](#Branches)
 
@@ -36,61 +36,105 @@
 
 [Add Image to GitHub Readme.md from Google Drive](https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170)
 
-[When local branch and remotely branch are differen and you want work on one branch](https://stackoverflow.com/questions/69863948/git-creates-a-new-branch-despite-commit-how-to-fix-this)
+[When local branch and remote branch are differen and you want work on one branch](https://stackoverflow.com/questions/69863948/git-creates-a-new-branch-despite-commit-how-to-fix-this)
 
-[Git Ignore files - templates](https://github.com/github/gitignore)
+[Git Ignore (.gitignore) files - templates](https://github.com/github/gitignore)
 
 # Introduction
 
-Introduction to GIT flow using GIT Bash and GitHub.
+## GIT flow using GIT Bash and GitHub.
 
-This reposytary consist of usefull knowladge about GIT flow. Mainly this reposytary was created based on:
+This reposytary consist of usefull knowladge about GIT / GitHub flow. Mainly this reposytary was created based on:
 
 - Course created by Bogdan Stashchuk and available here: [Link](https://subscription.packtpub.com/video/web_development/9781800209855/p1/video1_1/introduction)
 
-Moreover there is complete book which cover most information about GIT [Link](https://git-scm.com/book/en/v2)
+- Book which cover most information about GIT [Link](https://git-scm.com/book/en/v2)
 
-Additionally documentation for GIT is avaliable here [Link](https://docs.github.com/en/get-started)
+- Documentation for GIT is avaliable here [Link](https://docs.github.com/en/get-started)
 
+- Git course (for native Polish speaker or those who like subtitles) [Link](https://www.youtube.com/watch?v=tvHVafvw16Y&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&ab_channel=Zaprogramuj%C5%BBycie)
+
+
+```
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT" />
 </p>
+```
 
-# Git interface (Git Bash) commands and work flow
+# Git interface (Git Bash / Git GUI) commands and work flow
 
-1. When we want to check status of our repositary we can use:
+1. When we want to check status of files in our repositary we can use:
+
+The GIT interface must be enabled in the place where we have the repository on our local computer.
+
 
 > `git status`
 
-2. Settings for user and user e-mail
+
+2. Settings for new user and add user e-mail:
+
+
 
 > `git config --global.username "YOUR NAME"`
 
 > `git config --global user.email "YOUR EMAIL"`
 
+
+
 3. When we want clear our console
+
+
 
 > `clear`
 
-4. When we changed somthing on local repositary (e.g. local PC) the GIT flow could look like that:
 
-> `git add FILE NAME`
+
+4. When we changed somthing on our local repositary the GIT flow could look like that:
+
+
+
+> `git add FILE_NAME`
 
 > `git commit -m "your commnet for changes you've done"`
 
 > `git push`
 
-5. When we add all changes whuch we've done perfect solution for that seems to be:
 
-> `add *`
+
+5. When we add all changes which we've done perfect solution for that seems to be:
+
+
+[Git Add documentation](https://github.com/git-guides/git-add)
+
+The `git add` command adds new or changed files in your working directory to the Git staging area.
+
+`git add` is an important command - without it, no `git commit` would ever do anything. Sometimes, `git add` can have a reputation for being an unnecessary step in development. But in reality, `git add` is an important and powerful tool. `git add` allows you to shape history without changing how you work.
+
+
+> `git add *`
+
 
 6. When we want add changes for two or more fles and we want skip step `git add`
 
+
+
 > `git commit -a -m "your comment and explanation"`
 
-7. History of commits
+
+
+7. History of commits. Shows the commit logs.
+
+
+[Description](https://git-scm.com/docs/git-log)
+
+
+List commits that are reachable by following the `parent` links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
+
+You can think of this as a set operation. Commits reachable from any of the commits given on the command line form a set, and then commits reachable from any of the ones given with ^ in front are subtracted from that set. The remaining commits are what comes out in the command’s output. Various other options and paths parameters can be used to further limit the result.
+
 
 > `git log`
+
 
 8. .gitignore
 
