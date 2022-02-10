@@ -75,7 +75,7 @@ The GIT interface must be enabled in the place where we have the repository on o
 
 
 
-> `git config --global.username "YOUR NAME"`
+> `$ git config --global user.name "Your Name"`
 
 > `git config --global user.email "YOUR EMAIL"`
 
