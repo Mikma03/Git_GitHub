@@ -83,11 +83,6 @@ This repository consist of usefull materials and shows workflow in version contr
 
 <p>&nbsp;</p>
 
-- Course created by Bogdan Stashchuk
-  - https://subscription.packtpub.com/video/web_development/9781800209855/p1/video1_1/introduction
-
-<p>&nbsp;</p>
-
 - Book which cover most information about GIT
   - https://git-scm.com/book/en/v2
 
