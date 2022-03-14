@@ -97,6 +97,8 @@ This repository consist of usefull materials and shows workflow in version contr
   - https://www.youtube.com/watch?v=tvHVafvw16Y&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&ab_channel=Zaprogramuj%C5%BBycie
 
 
+<p>&nbsp;</p>
+
 # Git interface (Git Bash / Git GUI) commands and work flow
 
 <p>&nbsp;</p>
@@ -792,3 +794,5 @@ This is a list of tutorial:
 
 - Branches, merge, clone, fork
   - https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld
+
+
