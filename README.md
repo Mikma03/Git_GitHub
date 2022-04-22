@@ -1,42 +1,44 @@
 # Control version - Git
 
-<p>&nbsp;</p>
+start:
+
+https://subscription.packtpub.com/video/web_development/9781800209855/p3/video3_2/shell-commands--directory-management
+
 
 # Table of content
 
-<p>&nbsp;</p>
 
-1. [Usefull link and materials](#Usefull-link-and-materials)
+- [Usefull link and materials](#Usefull-link-and-materials)
 
-2. [Introduction](#Introduction)
+- [Introduction](#Introduction)
 
-3. [Git interface (Git Bash/Git GIU) commands and work flow](<#Git-interface-(Git-Bash-/-Git-GUI)-commands-and-work-flow>)
+- [Git interface (Git Bash/Git GIU) commands and work flow](<#Git-interface-(Git-Bash-/-Git-GUI)-commands-and-work-flow>)
 
-4. [Branches](#Branches)
+- [Branches](#Branches)
 
-5. [Git-Stash](#Git-Stash)
+- [Git-Stash](#Git-Stash)
 
-6. [Merge conflict](#Merge-conflict)
+- [Merge conflict](#Merge-conflict)
 
-7. [Git Revert and Git reset](#Git-Revert-and-Git-reset)
+- [Git Revert and Git reset](#Git-Revert-and-Git-reset)
 
-8. [How to change names of commits](#How-to-change-names-of-commits)
+- [How to change names of commits](#How-to-change-names-of-commits)
 
-9. [Fork and Pull Request](#Fork-and-Pull-Request)
+- [Fork and Pull Request](#Fork-and-Pull-Request)
 
-10. [Git history](#Git-history)
+- [Git history](#Git-history)
 
-11. [Pull request](#Pull-request)
+- [Pull request](#Pull-request)
 
-12. [Git rebase & git merge](#Git-rebase-&-git-merge)
+- [Git rebase & git merge](#Git-rebase-&-git-merge)
 
-13. [Git squash](#Git-squash)
+- [Git squash](#git-squash)
 
-14. [Git cherry-pick](#Git-cherry-pick)
+- [Git cherry-pick](#Git-cherry-pick)
 
-15. [Tagging](#Tagging)
+- [Tagging](#Tagging)
 
-16. [Git with VSC](#Git-with-VSC)
+- [Git with VSC](#Git-with-VSC)
 
 
 <p>&nbsp;</p>
@@ -75,10 +77,6 @@ This repository consist of usefull materials and shows workflow in version contr
 
 <p>&nbsp;</p>
 
-## GIT flow using GIT Bash and GitHub.
-
-<p>&nbsp;</p>
-
 **Mainly this reposytary was created based on:**
 
 <p>&nbsp;</p>
@@ -88,7 +86,7 @@ This repository consist of usefull materials and shows workflow in version contr
 
 <p>&nbsp;</p>
 
-- Documentation for GIT
+- GIT documentation
   - https://docs.github.com/en/get-started
 
 <p>&nbsp;</p>
