@@ -1,222 +1,153 @@
-# Control version - Git
-
-start:
-
-https://subscription.packtpub.com/video/web_development/9781800209855/p3/video3_2/shell-commands--directory-management
-
+# Version control  - Git
 
 # Table of content
 
 
-- [Usefull link and materials](#Usefull-link-and-materials)
+<!-- TOC -->
 
-- [Introduction](#Introduction)
-
-- [Git interface (Git Bash/Git GIU) commands and work flow](<#Git-interface-(Git-Bash-/-Git-GUI)-commands-and-work-flow>)
-
-- [Branches](#Branches)
-
-- [Git-Stash](#Git-Stash)
-
-- [Merge conflict](#Merge-conflict)
-
-- [Git Revert and Git reset](#Git-Revert-and-Git-reset)
-
-- [How to change names of commits](#How-to-change-names-of-commits)
-
-- [Fork and Pull Request](#Fork-and-Pull-Request)
-
-- [Git history](#Git-history)
-
-- [Pull request](#Pull-request)
-
-- [Git rebase & git merge](#Git-rebase-&-git-merge)
-
+- [Version control  - Git](#version-control----git)
+- [Table of content](#table-of-content)
+- [Git with VSC](#git-with-vsc)
+- [Some links](#some-links)
+- [Introduction](#introduction)
+- [Materials](#materials)
+    - [Book](#book)
+    - [YouTube course](#youtube-course)
+- [Git interface Git Bash/Git GUI](#git-interface-git-bashgit-gui)
+    - [git status](#git-status)
+    - [git config](#git-config)
+    - [clear command](#clear-command)
+    - [gitignore](#gitignore)
+- [Branches](#branches)
+- [Git Stash](#git-stash)
+- [Merge conflict](#merge-conflict)
+- [Git Revert and Git reset](#git-revert-and-git-reset)
+- [How to change names of commits](#how-to-change-names-of-commits)
+- [Fork and Pull Request](#fork-and-pull-request)
+- [Git history](#git-history)
+- [Pull request](#pull-request)
+- [Git rebase & git merge](#git-rebase--git-merge)
 - [Git squash](#git-squash)
+- [Git cherry-pick](#git-cherry-pick)
+- [Tagging](#tagging)
 
-- [Git cherry-pick](#Git-cherry-pick)
-
-- [Tagging](#Tagging)
-
-- [Git with VSC](#Git-with-VSC)
+<!-- /TOC -->
 
 
 <p>&nbsp;</p>
 
-# Usefull link and materials
+# Git with VSC
+
+- Intro to VSC and GIT
+  - https://www.youtube.com/watch?v=Fk12ELJ9Bww&t=8s&ab_channel=AutomationStepbyStep
+
+- Branches in VSC
+  - https://www.youtube.com/watch?v=F2DBSH2VoHQ&ab_channel=Ihatetomatoes
+
+- TOP 6 Git extensions
+  - https://www.youtube.com/watch?v=Guva-oab1pg&ab_channel=BryanJenks
+
+- Branches, merge, clone, fork
+  - https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld
+
+# Some links
 
 - Add Image to GitHub Readme.md from Google Drive
   - https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170
 
 
-  - Example how to connect to image from Google Drive:
+  Example how to connect to image from Google Drive:
 
     ```
+    
     <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=15RSv1aY_71BH8cekrD8fihYPDXeS0OFT" />
     </p>
+
     ```
 
-<p>&nbsp;</p>
+- When local branch and remote branch are differen and you want work on one branch - one of my issue with Git
 
-- When local branch and remote branch are differen and you want work on one branch
   - https://stackoverflow.com/questions/69863948/git-creates-a-new-branch-despite-commit-how-to-fix-this
 
-<p>&nbsp;</p>
-
-- Git Ignore (.gitignore) files - templates
+- Gitignore files templates
   - https://github.com/github/gitignore
 
 <p>&nbsp;</p>
 
 # Introduction
 
-<p>&nbsp;</p>
 
 This repository consist of usefull materials and shows workflow in version control using Git. Some materials also show how to use GitHub.
 
 <p>&nbsp;</p>
 
-**Mainly this reposytary was created based on:**
+# Materials
 
-<p>&nbsp;</p>
-
-- Book which cover most information about GIT
+## Book
+- Book which cover most informations about GIT
   - https://git-scm.com/book/en/v2
 
-<p>&nbsp;</p>
-
-- GIT documentation
-  - https://docs.github.com/en/get-started
-
-<p>&nbsp;</p>
-
+## YouTube course
 - Git course (for native Polish speaker or those who like subtitles)
   - https://www.youtube.com/watch?v=tvHVafvw16Y&list=PLj-pbEqbjo6AKsJ8oE2pvIqsb15mxdrxs&ab_channel=Zaprogramuj%C5%BBycie
 
 
 <p>&nbsp;</p>
 
-# Git interface (Git Bash / Git GUI) commands and work flow
+# Git interface (Git Bash/Git GUI)
 
-<p>&nbsp;</p>
+## git status
+When we want to check status of files in our repositary we can use:
 
-1. When we want to check status of files in our repositary we can use:
+    git status
 
-<p>&nbsp;</p>
+## git config
+Settings for new user - add user e-mail:
 
-The GIT interface must be enabled in the place where we have the repository on our local computer.
+     git config --global user.name "YOUR Name"
 
+E-mal:
 
-> `git status`
+    git config --global user.email "YOUR EMAIL"`
 
-<p>&nbsp;</p>
+## clear command
+To clear our console just use:
 
-2. Settings for new user and add user e-mail:
+    clear
 
-<p>&nbsp;</p>
-
-> `git config --global user.name "Your Name"`
-
-> `git config --global user.email "YOUR EMAIL"`
-
-<p>&nbsp;</p>
-
-3. When we want clear our console
-
-<p>&nbsp;</p>
-
-> `clear`
-
-<p>&nbsp;</p>
-
-4. When we changed somthing on our local repositary the GIT flow could look like that:
-
-<p>&nbsp;</p>
-
-> `git add FILE_NAME`
-
-> `git commit -m "your commnet for changes you've done"`
-
-> `git push`
-
-<p>&nbsp;</p>
-
-5. When we add all changes which we've done perfect solution for that seems to be:
-
-<p>&nbsp;</p>
-
-- Git Add - documentation
-  - https://github.com/git-guides/git-add
-
-The `git add` command adds new or changed files in your working directory to the Git staging area.
-
-`git add` is an important command - without it, no `git commit` would ever do anything. Sometimes, `git add` can have a reputation for being an unnecessary step in development. But in reality, `git add` is an important and powerful tool. `git add` allows you to shape history without changing how you work.
+Basic Git flow could look like that:
 
 
-> `git add *`
+    git add FILE_NAME
 
-<p>&nbsp;</p>
+    git commit -m "your commnet for changes you've done"
 
-6. When we want add changes for two or more fles and we want skip step `git add`
+    git push
 
-<p>&nbsp;</p>
+The `git add` command adds new or changed files in your working directory to the Git staging area. `Git add` is an important command - without it, no `git commit` would ever do anything. Sometimes, `git add` can have a reputation for being an unnecessary step in development. But in reality, `git add` is an important and powerful tool. `git add` allows you to shape history without changing how you work.
 
-> `git commit -a -m "your comment and explanation"`
+    git add *
 
-<p>&nbsp;</p>
+History of commits. Shows the commit logs.
 
-7. History of commits. Shows the commit logs.
+    git log
 
-<p>&nbsp;</p>
-
-- Description
+- More info about `git logs`
   - https://git-scm.com/docs/git-log
 
+## .gitignore
 
-List commits that are reachable by following the `parent` links from the given commit(s), but exclude commits that are reachable from the one(s) given with a ^ in front of them. The output is given in reverse chronological order by default.
-
-You can think of this as a set operation. Commits reachable from any of the commits given on the command line form a set, and then commits reachable from any of the ones given with ^ in front are subtracted from that set. The remaining commits are what comes out in the command’s output. Various other options and paths parameters can be used to further limit the result.
-
-
-> `git log`
-
-<p>&nbsp;</p>
-
-8. .gitignore
-
-In case of this file we tell git which files will be untracked.
-
-There is posbibility to create this file manually or when repositary is created.
-
-<p>&nbsp;</p>
+We tell git which files will be untracked. Also on GitHub there is a project which cosnsist of templates for gitignore in case of every language. 
 
 - Commends for .gitignoge
   - https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 
-<p>&nbsp;</p>
-
-Also on GitHub there is a project which cosnsist of templates for gitignore in case of every language. 
-<p>&nbsp;</p>
-
-- Link
+- A collection of .gitignore templates
   - https://github.com/github/gitignore)
 
-<p>&nbsp;</p>
 
-If we wany to ignore any file inside of folder in gitignore file we can use `*/`
-
-9. When we want to see particular file in catologe we can use:
-
-<p>&nbsp;</p>
-
-> `git status -uall`
-
-<p>&nbsp;</p>
-
-10. Flow how to add .gitignore file
-
-<p>&nbsp;</p>
+Flow how to add .gitignore file manually
 
     10.1. Create the text file `gitignore.txt`.
 
@@ -226,113 +157,49 @@ If we wany to ignore any file inside of folder in gitignore file we can use `*/`
 
     10.4. Then rename the file in the command line, with ren `gitignore.txt` `.gitignore`.
 
-<p>&nbsp;</p>
-
 # Branches
 
-<p>&nbsp;</p>
-
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr" />
+  <img src="https://drive.google.com/uc?export=view&id=1H8TGpxkK1N1v9yD9_VSNCi0-1iiyW2pr" width="500"/>
 </p>
 
-<p>&nbsp;</p>
+How can we check where we are in case of branch:
 
-1. How can we check where we are in case of branch:
+    git branch
 
-<p>&nbsp;</p>
+Create new branch:
 
-> `git branch`
+    git branch NAME_OF_NEW_BRANCH
 
-<p>&nbsp;</p>
+When we want change branch
 
-2. When we want to create new branch we can use:
+    git checkout NAME_OF_BRANCH
 
-<p>&nbsp;</p>
+When we want to make changes on our remotely repository and add new branch which is already exist on our local workspace:
 
-> `git branch NAME_OF_NEW_BRANCH`
+    git push -u origin NAME_OF_NEW_BRANCH
 
-<p>&nbsp;</p>
+Create new brach and autamatillcy checkout branch:
 
-3. When we want change branch means that we want change branch where we will be working atlassian
+    git checkout -b NAME_OF_NEW_BRANCH
 
-<p>&nbsp;</p>
+Graph of our changes in the console:
 
-`git checkout NAME_OF_BRANCH`
-
-<p>&nbsp;</p>
-
-4. When we want to make changes on our remotely repository and add new branch which is already exist on our local workspace we can use commend:
-
-<p>&nbsp;</p>
-
-> `git push -u origin NAME_OF_NEW_BRANCH`
-
-<p>&nbsp;</p>
-
-5. When we want to create new brach and autamatillcy checkout branch we can use:
-
-<p>&nbsp;</p>
-
-> `git checkout -b NAME_OF_NEW_BRANCH`
-
-<p>&nbsp;</p>
-
-6. When we want to see graph of our changes in console:
-
-<p>&nbsp;</p>
-
-> `git log -oneline -graph -all`
-
-<p>&nbsp;</p>
-
-7. When we wantto open GIU for Git to see our previous changes
-
-<p>&nbsp;</p>
-
-> `gitk -all`
-
-<p>&nbsp;</p>
-
-8. When we want merge commits from our branches we can use:
-
-<p>&nbsp;</p>
-
-> `git merge <name of branch which will be merge to actuall branch>`
-
-<p>&nbsp;</p>
-
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HE29F10Rqktdg8GPQniRB4134YxZ8Kvo" />
-</p>
-
-<p>&nbsp;</p>
+    git log -oneline -graph -all
 
 # Git Stash
 
-<p>&nbsp;</p>
-
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1HEmqiOj50tK2vWmeZWyzBGGMRUWQJgPq" />
+  <img src="https://drive.google.com/uc?export=view&id=1HEmqiOj50tK2vWmeZWyzBGGMRUWQJgPq" width="500"/>
 </p>
 
-<p>&nbsp;</p>
+Add something to storage we can use command:
 
-1. When we want add something to storage we can use command:
+    git stash
 
-<p>&nbsp;</p>
+Check what is in our storage we should use:
 
-> `git stash`
-
-<p>&nbsp;</p>
-
-2. If we want check what is in our storage we should use:
-
-<p>&nbsp;</p>
-
-> ` git stash list`
-
-<p>&nbsp;</p>
+    git stash list
 
 3. Changes in our storage are indexed and we can acess to then by
 
@@ -765,32 +632,6 @@ and next we need to select -s squash
 
 <p>&nbsp;</p>
 
-# Git with VSC
 
-<p>&nbsp;</p>
-
-Best methon as always is learning by doing. I've found couple of tutorial on YT which very good describe what going on when we are using git working with VSC.
-
-This is a list of tutorial:
-
-<p>&nbsp;</p>
-
-- Intro to VSC and GIT
-  - https://www.youtube.com/watch?v=Fk12ELJ9Bww&t=8s&ab_channel=AutomationStepbyStep
-
-<p>&nbsp;</p>
-
-- Branches in VSC
-  - https://www.youtube.com/watch?v=F2DBSH2VoHQ&ab_channel=Ihatetomatoes
-
-<p>&nbsp;</p>
-
-- TOP 6 Git extensions
-  - https://www.youtube.com/watch?v=Guva-oab1pg&ab_channel=BryanJenks
-
-<p>&nbsp;</p>
-
-- Branches, merge, clone, fork
-  - https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld
 
 
