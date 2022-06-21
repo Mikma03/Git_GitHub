@@ -7,17 +7,18 @@
 
 - [Version control  - Git](#version-control----git)
 - [Table of content](#table-of-content)
+- [Courses provided by GitHub](#courses-provided-by-github)
 - [Git with VSC](#git-with-vsc)
-- [Some links](#some-links)
+- [Useful links](#useful-links)
 - [Introduction](#introduction)
 - [Materials](#materials)
-    - [Book](#book)
-    - [YouTube course](#youtube-course)
-- [Git interface Git Bash/Git GUI](#git-interface-git-bashgit-gui)
-    - [git status](#git-status)
-    - [git config](#git-config)
-    - [clear command](#clear-command)
-    - [gitignore](#gitignore)
+  - [Book](#book)
+  - [YouTube course](#youtube-course)
+- [Git interface (Git Bash/Git GUI)](#git-interface-git-bashgit-gui)
+  - [git status](#git-status)
+  - [git config](#git-config)
+  - [clear command](#clear-command)
+  - [.gitignore](#gitignore)
 - [Branches](#branches)
 - [Git Stash](#git-stash)
 - [Merge conflict](#merge-conflict)
@@ -33,6 +34,9 @@
 
 <!-- /TOC -->
 
+# Courses provided by GitHub
+
+- https://skills.github.com/
 
 <p>&nbsp;</p>
 
@@ -50,7 +54,7 @@
 - Branches, merge, clone, fork
   - https://www.youtube.com/watch?v=3Tn58KQvWtU&list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi&ab_channel=DevWorld
 
-# Some links
+# Useful links
 
 - Add Image to GitHub Readme.md from Google Drive
   - https://stackoverflow.com/questions/52063556/add-image-to-github-readme-md-from-google-drive/70200170#70200170
