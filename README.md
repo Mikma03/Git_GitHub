@@ -1,11 +1,11 @@
-# Version control  - Git
+# Version control  - Git - test
 
 # Table of content
 
 
 <!-- TOC -->
 
-- [Version control  - Git](#version-control----git)
+- [Version control  - Git - test](#version-control----git---test)
 - [Table of content](#table-of-content)
 - [Courses provided by GitHub](#courses-provided-by-github)
 - [Git with VSC](#git-with-vsc)
