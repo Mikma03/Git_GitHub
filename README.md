@@ -39,7 +39,9 @@
 
 - https://skills.github.com/
 
-<p>&nbsp;</p>
+## GitHub docs
+
+- https://docs.github.com/en
 
 # Git with VSC
 
